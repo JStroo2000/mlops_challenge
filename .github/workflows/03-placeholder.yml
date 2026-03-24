@@ -1,0 +1,14 @@
+name: Challenge 3
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  dummyOutput:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Placeholder
+        run: |
+          echo "Will add code checks here in the next challenge"
